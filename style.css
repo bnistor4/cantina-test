@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(8, 8, 8);
+    font-family: "Lato", sans-serif;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Koulen", cursive;
+}
+
+.container-fluid {
+    padding-top: 3vh;
+    padding-left: 10vw !important;
+    padding-right: 10vw !important;
+}
+
+.main-title {
+    color: white;
+}
+
+.mega-nft-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nft-container {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nft-image-container img {
+    max-width: 200px;
+}
+
+.nft-info-container {
+    margin-left: 15px;
+    font-weight: 500;
+}
